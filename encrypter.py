@@ -1,7 +1,7 @@
 import os
 import pyaes
 
-file_name = input('Digite o nome do arquivo')
+file_name = input('Digite o nome do arquivo : ')
 file = open(file_name,'rb')
 file_data = file.read()
 file.close()
